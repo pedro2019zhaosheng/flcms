@@ -1,0 +1,7 @@
+.checkbox>.position_lable::after{
+    left:-1px;
+    top:-1px;
+}
+.font-style {
+    color:#0ca4ca;
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.jFiler-theme-default .jFiler-input {
+    width: initial !important;
+}
+
+.dropdown-toggle:after {
+    content: initial !important;
+}
+#addContent{
+    height: 240px;
+}
+.webLogoImg {
+    width: 150px;
+    height: 80px;
+    border: 1px solid #eee;
+    position: relative;
+    padding: 3px;
+    /*display: none;*/
+    margin-top: 10px;
+}
+
+.webLogoImg img {
+    width: 100%;
+    height: 100%;
+    border: none;
+
+}
+
+.webLogoImg span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    line-height: 17px;
+    text-align: center;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background: red;
+    color: #fff;
+}
+
+.webLogoImg span:hover {
+    cursor: pointer;
+    color: darkred;
+    font-size: 14px;
+    background: orangered;
+}
+.w-e-toolbar {
+    display: block !important;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+    /*border: none!important;*/
+}
+.w-e-toolbar .w-e-menu {
+    display: inline-block;
+    /*border: none!important;*/
+}
+.w-e-text-container {
+    height: 180px !important;
+    border: none;
+}
+/* modal-xlg */
+@media screen and (min-width: 992px) {
+    .modal-xlg {
+        max-width: 1000px;
+    }
+}

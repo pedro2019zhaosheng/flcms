@@ -1,0 +1,16 @@
+.checkbox>.position_lable::after{
+    left:-1px;
+    top:-1px;
+}
+.th_background{
+    background: #efefef;
+}
+.betDetail .table td, .betDetail .table th{
+    padding: .56rem;
+}
+/* modal-xlg */
+@media screen and (min-width: 992px) {
+    .modal-xlg {
+        max-width: 1000px;
+    }
+}

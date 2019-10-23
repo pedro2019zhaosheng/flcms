@@ -1,0 +1,31 @@
+.checkbox>.position_lable::after{
+    left:-1px;
+    top:-1px;
+}
+.font-style {
+    color:#0ca4ca;
+}
+
+.detail-img{
+    height: 135px;
+    width: 135px;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+}
+
+.my-row{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-define-row{
+    display: flex;
+    display: -webkit-flex;
+}
+
+.my-define-row>span{
+    flex: 1;
+    -webkit-flex: 1;
+}

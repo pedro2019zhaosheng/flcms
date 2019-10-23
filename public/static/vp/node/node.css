@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.jstree-default .jstree-wholerow-clicked {
+    background: initial !important;
+}
+
+.jstree-hovered {
+    background: initial !important;
+}
+
+.jstree-wholerow-hovered {
+    background: #cecece !important;
+}
+
+.jstree-default-large .jstree-disabled.jstree-clicked {
+    background: #dc3545 !important;
+    box-shadow: initial !important;
+    color: #ffffff !important;
+    cursor: not-allowed !important;
+}

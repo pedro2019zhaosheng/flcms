@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.jFiler-theme-default .jFiler-input {
+    width: initial !important;
+}
+
+.dropdown-toggle:after {
+    content: initial !important;
+}

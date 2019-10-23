@@ -1,0 +1,83 @@
+.bella-checkbox {
+    position: relative;
+}
+/** 将初始的checkbox的样式改变 */
+.bella-checkbox input[type="checkbox"] {
+    opacity: 0;
+    /*将初始的checkbox隐藏起来*/
+}
+/** 设计新的checkbox，位置 */
+.bella-checkbox label:before {
+    content: '';
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    background: #fff;
+}
+/** 点击初始的checkbox，将新的checkbox关联起来 */
+.bella-checkbox input[type="checkbox"]:checked+label:before{
+    border: 1px solid #CCCCCC;
+}
+.bella-checkbox input[type="checkbox"]:checked+label:after {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    content: "\f00c";
+    top: 9%;
+    left: 4%;
+    position: absolute;
+    font-size: 11px;
+    line-height: 15px;
+    width: 15px;
+    height: 15px;
+    color: #333333;
+    background: #CCCCCC;
+    border-radius: 3px;
+}
+.bella-primary input[type="checkbox"]:checked+label:before{
+    background: #0f9df7;
+    border: 1px solid #0f9df7;
+}
+.bella-primary input[type="checkbox"]:checked+label:after{
+    background: #0f9df7;
+    color: #FFFFFF;
+}
+.bella-warning input[type="checkbox"]:checked+label:before{
+    background: #f1b53d;
+    border: 1px solid #f1b53d;
+}
+.bella-warning input[type="checkbox"]:checked+label:after{
+    background: #f1b53d;
+    color: #FFFFFF;
+}
+.bella-success input[type="checkbox"]:checked+label:before{
+    background: #5cb85c;
+    border: 1px solid #5cb85c;
+}
+.bella-success input[type="checkbox"]:checked+label:after{
+    background: #5cb85c;
+    color: #FFFFFF;
+}
+.bella-info input[type="checkbox"]:checked+label:before{
+    background: #5bc0de;
+    border: 1px solid #5bc0de;
+}
+.bella-info input[type="checkbox"]:checked+label:after{
+    background: #5bc0de;
+    color: #FFFFFF;
+}
+.bella-danger input[type="checkbox"]:checked+label:before{
+    background: #d9534f;
+    border: 1px solid #d9534f;
+}
+.bella-danger input[type="checkbox"]:checked+label:after{
+    background: #d9534f;
+    color: #FFFFFF;
+}
+.bella-checkbox label {
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    left: 10px;
+}

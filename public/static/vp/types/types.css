@@ -1,0 +1,79 @@
+/* 公用样式 */
+.checkbox > .position_lable::after {
+    left: -1px;
+    top: -1px;
+}
+
+/* 赛事编辑 */
+[disabled] {
+    cursor: not-allowed;
+}
+
+.checkbox {
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+.radio {
+    padding-left: 10px !important;
+}
+
+.jFiler-theme-default .jFiler-input {
+    width: initial !important;
+}
+
+/* modal-xlg */
+@media screen and (min-width: 992px) {
+    .modal-xlg {
+        max-width: 1000px;
+    }
+}
+
+/* h6 */
+@media screen and (min-width: 992px) {
+    .card-left-border {
+        border-left: 3px solid #6194c1;
+        padding-left: 10px;
+    }
+}
+
+.text-underline {
+    text-decoration: underline solid #1bb99a !important;
+}
+
+.cart-left:before {
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: 5px solid transparent;
+    border-right-color: rgba(0, 0, 0, .3);
+    left: -10px;
+    top: 5px;
+}
+
+.shirk0 {
+    flex-shrink: 0 !important;
+}
+
+/* 修改日历插件z-index值 */
+.daterangepicker.dropdown-menu {
+    z-index: 1050 !important;
+}
+
+/*弃用*/
+.th_background {
+    background: #efefef;
+}
+
+.th_center {
+    text-align: center;
+}
+
+.ball_match .table td, .ball_match .table th {
+    padding: .56rem;
+}
+
+.ball_match .table td {
+    text-align: center;
+}
